@@ -59,7 +59,11 @@ nav a:hover{
 
 nav li:first-child {
   margin-right:auto;
-}    
+}   
+
+nav a.active{
+  border-bottom: #dc9f0f solid 3px;
+}
 
 .sidebar {
   position: fixed;
