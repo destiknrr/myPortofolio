@@ -170,9 +170,26 @@ display: none;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
+.card-contact {
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
 .icon-tech {
     color: rgb(32, 34, 75);
     font-size: 50px;
+}
+
+.icon-contact {
+    color: rgb(32, 34, 75);
+    font-size: 30px;
+    text-align: center;
+}
+
+a {
+  text-decoration: none
 }
 
 @media screen and (max-width: 600px) {
